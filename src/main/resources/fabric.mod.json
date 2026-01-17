@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "WindowsTitlebarHider",
+	"id": "windowstitlebarhider",
 	"version": "${version}",
 	"name": "Windows Titlebar Hider",
 	"description": "A client-side mod that removes the Windows title bar from the game window when loaded",
