@@ -1,10 +1,8 @@
 {
-	"required": true,
-	"package": "wvv.windowstitlebardelete.mixin",
+	"required": false,
+	"package": "com.github.glorpette.windowstitlebarhider.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
+	"mixins": [],
 	"injectors": {
 		"defaultRequire": 1
 	},

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "WindowsTitlebarHider",
+	"version": "${version}",
+	"name": "Windows Titlebar Hider",
+	"description": "A client-side mod that removes the Windows title bar from the game window when loaded",
+	"authors": [
+		"glorpette (Fork)",
+		"wvvern1 (Original Author)"
+	],
+	"contact": {
+		"sources": "https://github.com/glorpette/WindowsTitlebarHider"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/wth/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.github.glorpette.windowstitlebarhider.WindowsTitlebarHider"
+		],
+		"client": [
+			"com.github.glorpette.windowstitlebarhider.WindowsTitlebarHiderClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
